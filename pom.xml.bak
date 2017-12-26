@@ -25,7 +25,7 @@
 	<packaging>war</packaging>
 	<version>1.3.0-BUILD-SNAPSHOT</version>
 	<properties>
-		<java-version>1.8</java-version>
+		<java-version>1.7</java-version>
 		<mitreid-connect-version>1.3.1</mitreid-connect-version>
 	</properties>
 	
@@ -165,7 +165,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
-				<version>2.8</version>
+				<version>3.5.2</version>
 				<executions>
 					<execution>
 						<id>install</id>
@@ -179,7 +179,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
-				<version>2.5</version>
+				<version>3.5.2</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
 				</configuration>
